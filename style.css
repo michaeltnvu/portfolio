@@ -1,0 +1,145 @@
+/* General Styles */
+article.bg-callout {
+  background-color: #570303;
+  color: #F5F5DC;
+}
+
+body {
+  background-color: #F5F5DC;
+  font-family: monospace;
+}
+
+.centerText {
+  text-align: center;
+}
+
+div.padding {
+  align-self: center;
+}
+
+header {
+  background-color: #570303;
+}
+
+header h1 {
+  color: #F5F5DC;
+  font-family: Kristi;
+  font-size: 65px;
+  font-weight: 200;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+header nav ul li a {
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+img {
+  width:100%;
+}
+
+img.item {
+  flex-direction: row;
+  justify-content: center;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+p, li {
+  font-size: 12px;
+}
+
+/* Form */
+form {
+  padding-right: 6px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 200px;
+}
+
+/* Groups & Items (Mobile First) */
+.group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups & Items (Desktop) */
+@media all and (min-width: 600px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;  
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 8px;
+    align-self: center;
+  }
+
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  p, li {
+    font-size: 16px;
+  }
+}
+/* stylized links */
+a:link    { color: #F5F5DC;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
