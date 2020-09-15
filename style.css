@@ -1,11 +1,11 @@
 /* General Styles */
 article.bg-callout {
-  background-color: #570303;
+  background-color: #606c38;
   color: #F5F5DC;
 }
 
 body {
-  background-color: #F5F5DC;
+  background-color: #fefae0;
   font-family: monospace;
 }
 
@@ -18,11 +18,11 @@ div.padding {
 }
 
 header {
-  background-color: #570303;
+  background-color: #283618;
 }
 
 header h1 {
-  color: #F5F5DC;
+  color: #dda15e;
   font-family: Kristi;
   font-size: 65px;
   font-weight: 200;
@@ -138,6 +138,7 @@ form textarea {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 90%;
   }
   
   p, li {
@@ -145,7 +146,7 @@ form textarea {
   }
 }
 /* stylized links */
-a:link    { color: #F5F5DC;  }
+a:link    { color: #dda15e;  }
 a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: pink;  }
